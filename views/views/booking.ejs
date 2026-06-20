@@ -1,0 +1,48 @@
+CodeAlpha_CloudBusPass/
+│
+├── app.js
+├── package.json
+├── README.md
+│
+├── views/
+│   ├── index.ejs
+│   ├── register.ejs
+│   ├── login.ejs
+│   ├── dashboard.ejs
+│   └── booking.ejs
+│
+└── public/
+    └── css/
+        └── style.css
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Pass</title>
+</head>
+<body>
+
+<h2>Bus Pass Booking</h2>
+
+<form method="POST">
+
+<select name="route">
+<option>Hyderabad - Vijayawada</option>
+<option>Hyderabad - Warangal</option>
+<option>Vijayawada - Guntur</option>
+</select>
+
+<br><br>
+
+<select name="passType">
+<option>Monthly</option>
+<option>Yearly</option>
+</select>
+
+<br><br>
+
+<button type="submit">Book Pass</button>
+
+</form>
+
+</body>
+</html>
